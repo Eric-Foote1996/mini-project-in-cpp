@@ -369,7 +369,9 @@ while(1)
 
   <<"4.Buses Available. \n\t\t\t"
 
-  <<"5.Exit";
+  <<"5.Endorsed By. \n\t\t\t"
+
+  <<"6.Exit";
 
   cout<<"\n\t\t\tEnter your choice:-> ";
 
@@ -395,7 +397,9 @@ while(1)
 
       break;
 
-    case 5:  exit(0);
+    case 5:  endorsedBy();
+
+    case 6:  exit(0);
 
   }
 
