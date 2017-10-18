@@ -339,10 +339,13 @@ void a::avail()
 }
 
 void endorsedBy(){
-  String name;
+
+  string name;
   cout << "Give me a name: " << endl;
   cin >> name;
   cout << "Endorsed By: " << name;
+
+
 }
 
 int main()
@@ -369,7 +372,7 @@ while(1)
 
   <<"4.Buses Available. \n\t\t\t"
 
-  <<"5.Endorsed By. \n\t\t\t"
+  << "5.Endorsed By. \n\t\t\t"
 
   <<"6.Exit";
 
