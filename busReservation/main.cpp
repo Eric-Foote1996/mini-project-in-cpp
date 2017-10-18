@@ -338,6 +338,13 @@ void a::avail()
 
 }
 
+void endorsedBy(){
+  String name;
+  cout << "Give me a name: " << endl;
+  cin >> name;
+  cout << "Endorsed By: " << name;
+}
+
 int main()
 
 {
